@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 60px;
+}
+.image {
+  height: 400px;
+  width: 100%;
+}
+.heading {
+  color: #1e293b;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.paragraph {
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 22px;
+}
+.image-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
